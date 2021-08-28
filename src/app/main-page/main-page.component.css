@@ -1,0 +1,96 @@
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  background-color: cadetblue;
+  padding: 3rem 6rem;
+  font-size: 2rem;
+}
+
+.msg-container {
+  width: 900px;
+  margin: 3rem auto;
+}
+
+.msg-card {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: firebrick;
+  color: white;
+  border-radius: 1rem;
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: baseline;
+  cursor: pointer;
+}
+
+.msg-card p {
+  opacity: 0.6;
+}
+
+.msg-card:hover {
+  background-color: red;
+}
+
+.checked:hover {
+  background-color: green;
+}
+
+table {
+  width: 100%;
+  margin: 1rem 0 3rem 0;
+}
+
+thead {
+  background-color: cadetblue;
+  color: white;
+  padding: 1rem;
+}
+
+.pg-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pg {
+  margin-left: 5px;
+  background-color: cadetblue;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.pg:hover {
+  opacity: 0.6;
+}
+
+.no-messages {
+  width: 100%;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.checked {
+  background-color: seagreen;
+}
+
+.check-btn {
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  font-size: 1.25rem;
+}
+
+.check-btn:hover {
+  background-color: black;
+  color: white;
+}

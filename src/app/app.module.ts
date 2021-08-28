@@ -1,16 +1,15 @@
+import { MessagesService } from './messages.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  declarations: [AppComponent, MainPageComponent],
+  imports: [BrowserModule, HttpClientModule],
+  providers: [MessagesService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
